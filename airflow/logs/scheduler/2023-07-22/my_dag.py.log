@@ -1,0 +1,339 @@
+[2023-07-22T15:09:51.222-0500] {processor.py:157} INFO - Started process (PID=17776) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:09:51.231-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T15:09:51.234-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:09:51.234-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:09:51.244-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:09:51.239-0500] {dagbag.py:350} ERROR - Failed to import: /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/Users/abhishekpatkar/Documents/Projects/af_file_loader/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py", line 1, in <module>
+    from airflow.operators.s3_list import S3ListOperators
+ModuleNotFoundError: No module named 'airflow.operators.s3_list'
+[2023-07-22T15:09:51.245-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:09:53.992-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 2.772 seconds
+[2023-07-22T15:11:56.217-0500] {processor.py:157} INFO - Started process (PID=17846) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:11:56.225-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T15:11:56.226-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:11:56.226-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:11:56.231-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:11:56.229-0500] {dagbag.py:350} ERROR - Failed to import: /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/Users/abhishekpatkar/Documents/Projects/af_file_loader/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py", line 1, in <module>
+    from airflow.operators.s3_list import S3ListOperators
+ModuleNotFoundError: No module named 'airflow.operators.s3_list'
+[2023-07-22T15:11:56.232-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:11:57.223-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.007 seconds
+[2023-07-22T15:14:31.425-0500] {processor.py:157} INFO - Started process (PID=17937) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:14:31.428-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T15:14:31.429-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:14:31.429-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:14:31.434-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:14:31.432-0500] {dagbag.py:350} ERROR - Failed to import: /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/Users/abhishekpatkar/Documents/Projects/af_file_loader/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py", line 1, in <module>
+    from airflow.operators.s3_list import S3ListOperators
+ModuleNotFoundError: No module named 'airflow.operators.s3_list'
+[2023-07-22T15:14:31.434-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:14:32.309-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 0.885 seconds
+[2023-07-22T15:17:26.559-0500] {processor.py:157} INFO - Started process (PID=18037) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:17:26.562-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T15:17:26.563-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:17:26.563-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:17:26.567-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:17:26.565-0500] {dagbag.py:350} ERROR - Failed to import: /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/Users/abhishekpatkar/Documents/Projects/af_file_loader/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py", line 1, in <module>
+    from airflow.operators.s3_list import S3ListOperators
+ModuleNotFoundError: No module named 'airflow.operators.s3_list'
+[2023-07-22T15:17:26.567-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:17:27.744-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.186 seconds
+[2023-07-22T15:20:18.043-0500] {processor.py:157} INFO - Started process (PID=18144) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:20:18.047-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T15:20:18.048-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:20:18.048-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:20:18.054-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:20:18.052-0500] {dagbag.py:350} ERROR - Failed to import: /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/Users/abhishekpatkar/Documents/Projects/af_file_loader/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py", line 1, in <module>
+    from airflow.operators.s3_list import S3ListOperators
+ModuleNotFoundError: No module named 'airflow.operators.s3_list'
+[2023-07-22T15:20:18.055-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:20:18.922-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 0.881 seconds
+[2023-07-22T15:22:51.191-0500] {processor.py:157} INFO - Started process (PID=18236) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:22:51.195-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T15:22:51.196-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:22:51.196-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:22:51.200-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:22:51.198-0500] {dagbag.py:350} ERROR - Failed to import: /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/Users/abhishekpatkar/Documents/Projects/af_file_loader/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py", line 1
+    from airflow. import PythonOperator
+                  ^^^^^^
+SyntaxError: invalid syntax
+[2023-07-22T15:22:51.201-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:22:51.914-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 0.724 seconds
+[2023-07-22T15:25:00.118-0500] {processor.py:157} INFO - Started process (PID=18326) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:25:00.121-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T15:25:00.122-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:25:00.122-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:25:00.125-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:25:00.123-0500] {dagbag.py:350} ERROR - Failed to import: /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/Users/abhishekpatkar/Documents/Projects/af_file_loader/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py", line 1
+    from airflow. import PythonOperator
+                  ^^^^^^
+SyntaxError: invalid syntax
+[2023-07-22T15:25:00.125-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:25:00.966-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 0.849 seconds
+[2023-07-22T15:28:23.905-0500] {processor.py:157} INFO - Started process (PID=18612) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:28:23.910-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T15:28:23.910-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:28:23.910-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:28:24.139-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:28:27.576-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 3.673 seconds
+[2023-07-22T15:31:27.606-0500] {processor.py:157} INFO - Started process (PID=18797) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:31:27.611-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T15:31:27.612-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:31:27.611-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:31:27.840-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:31:28.492-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 0.887 seconds
+[2023-07-22T15:33:24.883-0500] {processor.py:157} INFO - Started process (PID=18873) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:33:24.887-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T15:33:24.888-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:33:24.888-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:33:25.091-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:33:25.688-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 0.806 seconds
+[2023-07-22T15:35:16.117-0500] {processor.py:157} INFO - Started process (PID=18950) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:35:16.121-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T15:35:16.121-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:35:16.121-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:35:16.335-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:35:16.940-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 0.824 seconds
+[2023-07-22T15:37:13.960-0500] {processor.py:157} INFO - Started process (PID=19237) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:37:13.964-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T15:37:13.964-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:37:13.964-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:37:14.319-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:37:16.009-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 2.053 seconds
+[2023-07-22T15:49:03.777-0500] {processor.py:157} INFO - Started process (PID=19473) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:49:03.782-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T15:49:03.783-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:49:03.782-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:49:04.112-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:49:04.991-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.215 seconds
+[2023-07-22T15:51:35.794-0500] {processor.py:157} INFO - Started process (PID=19717) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:51:35.800-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T15:51:35.800-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:51:35.800-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:51:36.049-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:51:36.883-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.090 seconds
+[2023-07-22T15:54:15.529-0500] {processor.py:157} INFO - Started process (PID=19896) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:54:15.537-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T15:54:15.538-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:54:15.538-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:54:15.827-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:54:16.836-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.308 seconds
+[2023-07-22T15:56:54.836-0500] {processor.py:157} INFO - Started process (PID=20140) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:56:54.840-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T15:56:54.841-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:56:54.841-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:56:55.131-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:56:55.985-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.151 seconds
+[2023-07-22T15:59:27.915-0500] {processor.py:157} INFO - Started process (PID=20279) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:59:27.920-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T15:59:27.920-0500] {logging_mixin.py:150} INFO - [2023-07-22T15:59:27.920-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:59:28.183-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T15:59:29.064-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.150 seconds
+[2023-07-22T16:01:54.970-0500] {processor.py:157} INFO - Started process (PID=20367) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:01:54.976-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T16:01:54.976-0500] {logging_mixin.py:150} INFO - [2023-07-22T16:01:54.976-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:01:55.453-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:01:56.658-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.689 seconds
+[2023-07-22T16:03:55.485-0500] {processor.py:157} INFO - Started process (PID=20443) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:03:55.490-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T16:03:55.491-0500] {logging_mixin.py:150} INFO - [2023-07-22T16:03:55.490-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:03:55.687-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:03:56.308-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 0.823 seconds
+[2023-07-22T16:05:42.440-0500] {processor.py:157} INFO - Started process (PID=20524) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:05:42.444-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T16:05:42.445-0500] {logging_mixin.py:150} INFO - [2023-07-22T16:05:42.445-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:05:42.641-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:05:43.231-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 0.792 seconds
+[2023-07-22T16:07:32.793-0500] {processor.py:157} INFO - Started process (PID=20618) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:07:32.797-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T16:07:32.798-0500] {logging_mixin.py:150} INFO - [2023-07-22T16:07:32.798-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:07:33.082-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:07:33.666-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 0.874 seconds
+[2023-07-22T16:09:25.085-0500] {processor.py:157} INFO - Started process (PID=20692) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:09:25.089-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T16:09:25.089-0500] {logging_mixin.py:150} INFO - [2023-07-22T16:09:25.089-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:09:25.238-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:09:25.825-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 0.741 seconds
+[2023-07-22T16:11:09.406-0500] {processor.py:157} INFO - Started process (PID=20760) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:11:09.410-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T16:11:09.411-0500] {logging_mixin.py:150} INFO - [2023-07-22T16:11:09.410-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:11:09.806-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:11:10.847-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.442 seconds
+[2023-07-22T16:25:09.830-0500] {processor.py:157} INFO - Started process (PID=20917) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:25:09.836-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T16:25:09.838-0500] {logging_mixin.py:150} INFO - [2023-07-22T16:25:09.838-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:25:10.191-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:25:11.080-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.251 seconds
+[2023-07-22T16:28:50.683-0500] {processor.py:157} INFO - Started process (PID=21055) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:28:50.688-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T16:28:50.688-0500] {logging_mixin.py:150} INFO - [2023-07-22T16:28:50.688-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:28:51.009-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:28:52.035-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.353 seconds
+[2023-07-22T16:32:03.812-0500] {processor.py:157} INFO - Started process (PID=21161) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:32:03.817-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T16:32:03.818-0500] {logging_mixin.py:150} INFO - [2023-07-22T16:32:03.818-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:32:04.097-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:32:05.345-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.534 seconds
+[2023-07-22T16:35:23.345-0500] {processor.py:157} INFO - Started process (PID=21265) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:35:23.350-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T16:35:23.351-0500] {logging_mixin.py:150} INFO - [2023-07-22T16:35:23.350-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:35:24.035-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:35:27.760-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 4.415 seconds
+[2023-07-22T16:40:30.312-0500] {processor.py:157} INFO - Started process (PID=21449) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:40:30.323-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T16:40:30.326-0500] {logging_mixin.py:150} INFO - [2023-07-22T16:40:30.325-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:40:30.770-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:40:32.446-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 2.136 seconds
+[2023-07-22T16:44:31.856-0500] {processor.py:157} INFO - Started process (PID=21596) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:44:31.861-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T16:44:31.863-0500] {logging_mixin.py:150} INFO - [2023-07-22T16:44:31.862-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:44:32.161-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:44:33.922-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 2.067 seconds
+[2023-07-22T16:48:05.811-0500] {processor.py:157} INFO - Started process (PID=21706) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:48:05.814-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T16:48:05.815-0500] {logging_mixin.py:150} INFO - [2023-07-22T16:48:05.815-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:48:06.081-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:48:07.383-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.573 seconds
+[2023-07-22T16:51:56.811-0500] {processor.py:157} INFO - Started process (PID=21821) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:51:56.826-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T16:51:56.826-0500] {logging_mixin.py:150} INFO - [2023-07-22T16:51:56.826-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:51:57.163-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:51:58.824-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 2.014 seconds
+[2023-07-22T16:55:28.275-0500] {processor.py:157} INFO - Started process (PID=21943) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:55:28.282-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T16:55:28.283-0500] {logging_mixin.py:150} INFO - [2023-07-22T16:55:28.283-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:55:28.626-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:55:29.621-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.347 seconds
+[2023-07-22T16:58:25.150-0500] {processor.py:157} INFO - Started process (PID=22037) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:58:25.155-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T16:58:25.155-0500] {logging_mixin.py:150} INFO - [2023-07-22T16:58:25.155-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:58:25.439-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T16:58:26.450-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.301 seconds
+[2023-07-22T17:02:38.662-0500] {processor.py:157} INFO - Started process (PID=22212) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:02:38.677-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T17:02:38.679-0500] {logging_mixin.py:150} INFO - [2023-07-22T17:02:38.679-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:02:39.748-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:02:42.176-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 3.518 seconds
+[2023-07-22T17:04:58.526-0500] {processor.py:157} INFO - Started process (PID=22303) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:04:58.531-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T17:04:58.532-0500] {logging_mixin.py:150} INFO - [2023-07-22T17:04:58.531-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:04:58.753-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:04:59.520-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 0.995 seconds
+[2023-07-22T17:06:54.799-0500] {processor.py:157} INFO - Started process (PID=22376) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:06:54.803-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T17:06:54.803-0500] {logging_mixin.py:150} INFO - [2023-07-22T17:06:54.803-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:06:54.979-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:06:55.690-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 0.891 seconds
+[2023-07-22T17:08:55.760-0500] {processor.py:157} INFO - Started process (PID=22458) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:08:55.765-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T17:08:55.766-0500] {logging_mixin.py:150} INFO - [2023-07-22T17:08:55.765-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:08:56.016-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:08:56.798-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.039 seconds
+[2023-07-22T17:10:55.457-0500] {processor.py:157} INFO - Started process (PID=22541) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:10:55.462-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T17:10:55.463-0500] {logging_mixin.py:150} INFO - [2023-07-22T17:10:55.463-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:10:55.694-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:10:56.377-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 0.920 seconds
+[2023-07-22T17:12:55.492-0500] {processor.py:157} INFO - Started process (PID=22615) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:12:55.497-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T17:12:55.498-0500] {logging_mixin.py:150} INFO - [2023-07-22T17:12:55.497-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:12:55.728-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:12:56.443-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 0.952 seconds
+[2023-07-22T17:14:53.482-0500] {processor.py:157} INFO - Started process (PID=22690) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:14:53.487-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T17:14:53.487-0500] {logging_mixin.py:150} INFO - [2023-07-22T17:14:53.487-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:14:53.725-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:14:54.428-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 0.947 seconds
+[2023-07-22T17:17:02.302-0500] {processor.py:157} INFO - Started process (PID=22775) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:17:02.306-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T17:17:02.307-0500] {logging_mixin.py:150} INFO - [2023-07-22T17:17:02.307-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:17:02.545-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:17:03.511-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.210 seconds
+[2023-07-22T17:19:44.967-0500] {processor.py:157} INFO - Started process (PID=22915) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:19:44.972-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T17:19:44.973-0500] {logging_mixin.py:150} INFO - [2023-07-22T17:19:44.973-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:19:45.204-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:19:45.878-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 0.911 seconds
+[2023-07-22T17:21:47.810-0500] {processor.py:157} INFO - Started process (PID=23007) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:21:47.814-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T17:21:47.815-0500] {logging_mixin.py:150} INFO - [2023-07-22T17:21:47.815-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:21:48.042-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:21:48.829-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.020 seconds
+[2023-07-22T17:25:11.461-0500] {processor.py:157} INFO - Started process (PID=23168) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:25:11.492-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T17:25:11.494-0500] {logging_mixin.py:150} INFO - [2023-07-22T17:25:11.494-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:25:12.437-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:25:15.010-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 3.550 seconds
+[2023-07-22T17:30:05.493-0500] {processor.py:157} INFO - Started process (PID=23332) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:30:05.498-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T17:30:05.499-0500] {logging_mixin.py:150} INFO - [2023-07-22T17:30:05.499-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:30:05.767-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:30:07.707-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 2.215 seconds
+[2023-07-22T17:32:17.989-0500] {processor.py:157} INFO - Started process (PID=23433) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:32:17.994-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T17:32:17.995-0500] {logging_mixin.py:150} INFO - [2023-07-22T17:32:17.995-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:32:18.236-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:32:18.916-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 0.928 seconds
+[2023-07-22T17:34:15.574-0500] {processor.py:157} INFO - Started process (PID=23507) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:34:15.578-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T17:34:15.579-0500] {logging_mixin.py:150} INFO - [2023-07-22T17:34:15.578-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:34:15.793-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:34:16.493-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 0.920 seconds
+[2023-07-22T17:36:42.904-0500] {processor.py:157} INFO - Started process (PID=23600) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:36:42.910-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T17:36:42.919-0500] {logging_mixin.py:150} INFO - [2023-07-22T17:36:42.911-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:36:43.668-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:36:45.741-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 2.839 seconds
+[2023-07-22T17:41:25.993-0500] {processor.py:157} INFO - Started process (PID=23802) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:41:26.002-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T17:41:26.003-0500] {logging_mixin.py:150} INFO - [2023-07-22T17:41:26.003-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:41:26.919-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:41:33.819-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 7.831 seconds
+[2023-07-22T17:50:08.750-0500] {processor.py:157} INFO - Started process (PID=24191) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:50:08.754-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T17:50:08.754-0500] {logging_mixin.py:150} INFO - [2023-07-22T17:50:08.754-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:50:09.160-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:50:10.305-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.556 seconds
+[2023-07-22T17:54:23.914-0500] {processor.py:157} INFO - Started process (PID=24435) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:54:23.921-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T17:54:23.922-0500] {logging_mixin.py:150} INFO - [2023-07-22T17:54:23.922-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:54:24.247-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:54:25.499-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.586 seconds
+[2023-07-22T17:59:59.429-0500] {processor.py:157} INFO - Started process (PID=24666) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:59:59.434-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T17:59:59.435-0500] {logging_mixin.py:150} INFO - [2023-07-22T17:59:59.434-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T17:59:59.750-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T18:00:00.913-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.485 seconds
+[2023-07-22T18:04:08.995-0500] {processor.py:157} INFO - Started process (PID=24816) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T18:04:09.001-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T18:04:09.001-0500] {logging_mixin.py:150} INFO - [2023-07-22T18:04:09.001-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T18:04:09.348-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T18:04:10.675-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.681 seconds
+[2023-07-22T18:07:10.002-0500] {processor.py:157} INFO - Started process (PID=24916) to work on /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T18:07:10.007-0500] {processor.py:826} INFO - Processing file /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py for tasks to queue
+[2023-07-22T18:07:10.008-0500] {logging_mixin.py:150} INFO - [2023-07-22T18:07:10.008-0500] {dagbag.py:541} INFO - Filling up the DagBag from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T18:07:10.368-0500] {processor.py:838} WARNING - No viable dags retrieved from /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py
+[2023-07-22T18:07:11.516-0500] {processor.py:179} INFO - Processing /Users/abhishekpatkar/Documents/Projects/af_file_loader/airflow/dags/my_dag.py took 1.515 seconds
